@@ -4,6 +4,6 @@ describe ('Heading test', () => {
 
         cy.get('h1')
             .invoke('text')
-            .should('equal', 'My Awesome Web Application')
+            .should('equal', 'Follow me @anishmoktan !')
     });
 });
