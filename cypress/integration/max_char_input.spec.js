@@ -22,7 +22,7 @@ describe('Text box with max characters', () => {
     it('prevents the user from typing more characters once max is exceeded', () => {
         cy.visit('http://localhost:3000/example-2');
 
-        cy.get('input').type('abcdefghijklmnopqrstuvwxyz');
+        cy.get('input').type('abcdefghijklmnopqrstuvwxyz123');
 
         cy.get('input')
             .should('have.attr', 'value', 'abcdefghijklmno');
