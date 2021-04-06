@@ -1,5 +1,5 @@
 # Cypress
-Test file for Cypress E2E tests
+Test file for Cypress E2E tests (Frontend Tests)
 
 ## Test #1: Clicking on Button
 ![Test 1](https://github.com/anishmoktan/cypress/blob/main/images/test1.png)
